@@ -53,6 +53,7 @@ const headerSection = document.querySelector('cta')
 
 const titleHeader = document.querySelector('h1')
 titleHeader.textContent = siteContent.cta.h1
+titleHeader.innerHTML = "DOM <br> Is <br> Awesome"
 
 const headerImg = document.querySelector('#cta-img')
 headerImg.setAttribute('src', siteContent.cta["img-src"])
@@ -82,8 +83,11 @@ contactHeader.textContent = siteContent.contact["contact-h4"]
 
 const contactParas = document.querySelectorAll('.contact p');
 contactParas[0].textContent = siteContent.contact.address
+contactParas[0].innerHTML = "123 Way 456 Street <br> Somewhere, USA"
 contactParas[1].textContent = siteContent.contact.phone
 contactParas[2].textContent = siteContent.contact.email;
+
+
 
 const footerIndex = document.querySelector('footer p');
 footerIndex.textContent = siteContent.footer.copyright;
