@@ -63,10 +63,10 @@ topNav.forEach((item) => {
 
 const navBar = document.querySelector('nav');
 const newNav = document.createElement('a')
-newNav.textContent = "My Dog";
+newNav.textContent = "Ideas";
 navBar.appendChild(newNav);
 const newNavTwo = document.createElement('a')
-newNavTwo.textContent = "My Cat";
+newNavTwo.textContent = "Funding";
 navBar.prepend(newNavTwo);
 
 // end new nav items
