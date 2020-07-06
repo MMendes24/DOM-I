@@ -85,3 +85,5 @@ contactParas[0].textContent = siteContent.contact.address
 contactParas[1].textContent = siteContent.contact.phone
 contactParas[2].textContent = siteContent.contact.email;
 
+const footerIndex = document.querySelector('footer p');
+footerIndex.textContent = siteContent.footer.copyright;
